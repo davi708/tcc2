@@ -2740,7 +2740,7 @@ def renderizar_botao_oauth(provider: str, config: Dict[str, object], compact: bo
     if compact:
         google_icon = "https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
         card_html = f"""
-        <a href="{url}" target="_self" style="text-decoration:none;">
+        <a href="{url}" target="_blank" style="text-decoration:none;">
             <div style="border:1px solid #374151;border-radius:16px;padding:22px 18px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:210px;background:#111827;">
                 <img src="{google_icon}" alt="Google" style="width:42px;height:42px;" />
                 <div style="color:#f9fafb;font-size:1.05rem;font-weight:600;">Entrar com Google</div>
