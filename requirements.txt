@@ -6,4 +6,4 @@ Pillow
 plotly
 streamlit-plotly-events
 streamlit-drawable-canvas
-pypdf
+certifi
