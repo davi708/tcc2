@@ -5,5 +5,5 @@ ezdxf
 Pillow
 plotly
 streamlit-plotly-events
-streamlit-drawable-canvas
+streamlit-drawable-canvas==0.9.0
 certifi
